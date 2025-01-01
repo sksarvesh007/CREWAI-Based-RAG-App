@@ -7,7 +7,8 @@ from pinecone import Pinecone
 from dotenv import load_dotenv
 import streamlit as st
 from groq import Groq
-
+import nltk 
+nltk.download("punkt")
 # Load environment variables
 load_dotenv()
 
